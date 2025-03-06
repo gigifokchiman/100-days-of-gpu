@@ -178,11 +178,17 @@ Last update: 2025.03.06
 
 | Name       | Repository                                                  |
 | ---------- | ----------------------------------------------------------- |
-| 1y33       | [Link](https://github.com/1y33/100Days)                     |
-| a-hamdi    | [Link](https://github.com/a-hamdi/cuda/)                    |
 | SwekeR-463 | [Link](https://github.com/SwekeR-463/100kernels)            |
 
 ## Participants (50 days badge)
+
+![Badge 50 days](badges/badge_50_days_small.jpg)
+
+
+| Name       | Repository                                                  |
+| ---------- | ----------------------------------------------------------- |
+| 1y33       | [Link](https://github.com/1y33/100Days)                     |
+| a-hamdi    | [Link](https://github.com/a-hamdi/cuda/)                    |
 
 It's fine if your professors never believed in you, we do
 
