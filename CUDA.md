@@ -61,7 +61,7 @@ Last update: 2025.03.07
 | karthi-vijayakumaar | [Link](https://github.com/karthi-vijayakumaar/cuda-experiments/)                            |                  |
 | kartik-pz           | [Link](https://github.com/kartik-pz/cuda)                                                   |                  |
 | khushwant04         | [Link](https://github.com/khushwant04/100-Days-CUDA)                                        |                  |
-| kmohan321           | [Link](https://github.com/kmohan321/CUDA)                                                   | 🎖️🎖️🎖️          |
+| kmohan321           | [Link](https://github.com/kmohan321/CUDA)                                                   | 🎖️🎖️🎖️🎖️       |
 | kosbeko             | [Link](https://github.com/kosbeko/100DaysGPU)                                               |                  |
 | LakshyaSingh354     | [Link](https://github.com/LakshyaSingh354/100-days-of-cuda)                                 |                  |
 | mananchawla2005     | [Link](https://github.com/mananchawla2005/gpukernels/)                                      | 🎖️🎖️            |
@@ -165,7 +165,6 @@ Last update: 2025.03.07
 | ----------------- | ----------------------------------------------------------- |
 | aryagxr             | [Link](https://github.com/aryagxr/cuda)                     |
 | Firojpaudel         | [Link](https://github.com/Firojpaudel/100_days_of_CUDA)     |
-| kmohan321         | [Link](https://github.com/kmohan321/CUDA)                   |
 | Meeex2              | [Link](https://github.com/Meeex2/cuda/)                     |
 | prateekshukla1108 | [Link](https://github.com/prateekshukla1108/100-daysofcuda) | 
 | rajneel18         | [Link](https://github.com/rajneel18/100_CUDA_Kernels)       |
@@ -178,6 +177,7 @@ Last update: 2025.03.07
 
 | Name       | Repository                                                  |
 | ---------- | ----------------------------------------------------------- |
+| kmohan321  | [Link](https://github.com/kmohan321/CUDA)                   |
 | SwekeR-463 | [Link](https://github.com/SwekeR-463/100kernels)            |
 
 ## Participants (50 days badge)
