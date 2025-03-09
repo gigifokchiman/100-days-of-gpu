@@ -22,7 +22,7 @@ Announce your repo in the Discord channel and we will verify if you actually del
 
 ## List of active challanges
 
-Last update: 2025.03.08
+Last update: 2025.03.09
 
 | Name                | Repository                                                                                  | Badges           |
 | ------------------- | ------------------------------------------------------------------------------------------- |------------------|
@@ -52,7 +52,7 @@ Last update: 2025.03.08
 | doudi25             | [Link](https://github.com/doudi25/Triton)                                                   |                  |
 | emre570             | [Link](https://github.com/emre570/100-days-CUDA)                                            |                  |
 | Elsword016          | [Link](https://github.com/Elsword016/100days_Triton)                                        |                  |
-| Firojpaudel         | [Link](https://github.com/Firojpaudel/100_days_of_CUDA)                                     | 🎖️🎖️🎖️          |
+| Firojpaudel         | [Link](https://github.com/Firojpaudel/100_days_of_CUDA)                                     | 🎖️🎖️🎖️🎖️       |
 | gauravparajuli      | [Link](https://github.com/gauravparajuli/100-days-of-cuda)                                  | 🎖️🎖️            |
 | gParshav            | [Link](https://github.com/gParshav/100-days-of-GPU)                                         | 🎖️🎖️            |
 | harshkumarchourasia | [Link](https://github.com/harshkumarchourasia/100DaysOfGPU)                                 | 🎖️               |
@@ -67,7 +67,7 @@ Last update: 2025.03.08
 | mananchawla2005     | [Link](https://github.com/mananchawla2005/gpukernels/)                                      | 🎖️🎖️            |
 | Marvin-desmond      | [Link](https://github.com/Marvin-desmond/100-days-of-gpu/)                                  |                  |
 | mathysgrapotte      | [Link](https://github.com/mathysgrapotte/100DaysCUDA/)                                      | 🎖️               |
-| Meeex2              | [Link](https://github.com/Meeex2/cuda/)                                                     | 🎖️🎖️🎖️          |
+| Meeex2              | [Link](https://github.com/Meeex2/cuda/)                                                     | 🎖️🎖️🎖️🎖️       |
 | MoAbbasid           | [Link](https://github.com/MoAbbasid/100DaysCUDA/)                                           | 🎖️               |
 | ModeEric            | [Link](https://github.com/ModeEric/100-Days-of-CUDA)                                        |                  |
 | MahmoudMohajer      | [Link](https://github.com/MahmoudMohajer/Hundred-Day-GPU-Challenge)                         | 🎖️               |
@@ -86,13 +86,14 @@ Last update: 2025.03.08
 | PredictiveManish    | [Link](https://github.com/PredictiveManish/100days)                                         |                  |
 | prem-16             | [Link](https://github.com/prem-16/100-days-CUDA-challenge/)                                 |                  |
 | psvkaushik          | [Link](https://github.com/psvkaushik/100_Days_CUDA)                                         | 🎖️               |
-| rajneel18           | [Link](https://github.com/rajneel18/100_CUDA_Kernels)                                       | 🎖️🎖️            |
+| rajneel18           | [Link](https://github.com/rajneel18/100_CUDA_Kernels)                                       | 🎖️🎖️🎖️🎖️        |
 | redrodeo03          | [Link](https://github.com/redrodeo03/cuda-kernels/)                                         |                  |
 | RookieLiao          | [Link](https://github.com/RookieLiao/tiny-cuda-examples)                                    | 🎖️               |
 | sanjivch            | [Link](https://github.com/sanjivch/100-days-of-gpu)                                         |                  |
 | saurav997           | [Link](https://github.com/saurav997/100DaysOfCuda)                                          | 🎖️🎖️            |
 | Sayandip170900      | [Link](https://github.com/Sayandip170900/CUDA-Challenge)                                    | 🎖️🎖️🎖️          |
 | ShlokVFX            | [Link](https://github.com/ShlokVFX/100-days-cuda/)                                          | 🎖️🎖️🎖️          |
+| Shriharsh7          | [Link](https://github.com/Shriharsh7/100_Days_Of_CUDA/)                                     |                  |
 | skj092              | [Link](https://github.com/skj092/cuda-programming)                                          | 🎖️               |
 | SwekeR-463          | [Link](https://github.com/SwekeR-463/100kernels)                                            | 🎖️🎖️🎖️🎖️        |
 | suurajroshan        | [Link](https://github.com/suurajroshan/100-days-of-CUDA/)                                   |                  |
@@ -164,10 +165,7 @@ Last update: 2025.03.08
 | ----------------- | ----------------------------------------------------------- |
 | ahmedgu2            | [Link](https://github.com/ahmedgu2/cuda_cpp_programming)    |
 | aryagxr             | [Link](https://github.com/aryagxr/cuda)                     |
-| Firojpaudel         | [Link](https://github.com/Firojpaudel/100_days_of_CUDA)     |
-| Meeex2              | [Link](https://github.com/Meeex2/cuda/)                     |
 | prateekshukla1108 | [Link](https://github.com/prateekshukla1108/100-daysofcuda) | 
-| rajneel18         | [Link](https://github.com/rajneel18/100_CUDA_Kernels)       |
 | Sayandip170900      | [Link](https://github.com/Sayandip170900/CUDA-Challenge)    |
 | ShlokVFX            | [Link](https://github.com/ShlokVFX/100-days-cuda/)          |
 
@@ -178,7 +176,10 @@ Last update: 2025.03.08
 
 | Name       | Repository                                                  |
 | ---------- | ----------------------------------------------------------- |
+| Firojpaudel         | [Link](https://github.com/Firojpaudel/100_days_of_CUDA)     |
 | kmohan321  | [Link](https://github.com/kmohan321/CUDA)                   |
+| Meeex2              | [Link](https://github.com/Meeex2/cuda/)                     |
+| rajneel18         | [Link](https://github.com/rajneel18/100_CUDA_Kernels)       |
 | SwekeR-463 | [Link](https://github.com/SwekeR-463/100kernels)            |
 | vectorquantized     | [Link](https://github.com/vectorquantized/100daysofcuda)    |
 
