@@ -27,8 +27,8 @@ Last update: 2025.03.10
 | Name                | Repository                                                                                  | Badges           |
 | ------------------- | ------------------------------------------------------------------------------------------- |------------------|
 | 2395959141          | [Link](https://github.com/2395959141/100-days-of-cuda)                                      | 🎖️               |
-| 1y33                | [Link](https://github.com/1y33/100Days)                                                     | 🎖️🎖️🎖️🎖️       |
-| a-hamdi             | [Link](https://github.com/a-hamdi/cuda)                                                     | 🎖️🎖️🎖️🎖️        |
+| 1y33                | [Link](https://github.com/1y33/100Days)                                                     | 🎖️🎖️🎖️🎖️🎖️       |
+| a-hamdi             | [Link](https://github.com/a-hamdi/cuda)                                                     | 🎖️🎖️🎖️🎖️🎖️        |
 | ahmedgu2            | [Link](https://github.com/ahmedgu2/cuda_cpp_programming)                                    | 🎖️🎖️🎖️          |
 | AkashKarnatak       | [Link](https://github.com/AkashKarnatak/100-days-of-cuda/)                                  | 🎖️🎖️            |
 | Alexey Zaytsev      | [Link](https://xl0.github.io/cuda-100/)                                                     | 🎖️               |
@@ -39,7 +39,7 @@ Last update: 2025.03.10
 | AnkitTsj            | [Link](https://github.com/AnkitTsj/cuda_learning)                                           | 🎖️               |
 | AramBughdaryan      | [Link](https://github.com/AramBughdaryan/cuda)                                              | 🎖️🎖️            |
 | arcAman07           | [Link](https://github.com/arcAman07/100-Days-of-GPU-Programming)                            |                  |
-| aryagxr             | [Link](https://github.com/aryagxr/cuda)                                                     | 🎖️🎖️🎖️         |
+| aryagxr             | [Link](https://github.com/aryagxr/cuda)                                                     | 🎖️🎖️🎖️🎖️        |
 | ashish-kubade       | [Link](https://github.com/ashish-kubade/cuda-100-days/)                                     |                  |
 | ashwin3005          | [Link](https://github.com/ashwin3005/CUDA)                                                  | 🎖️🎖️            |
 | asrjy               | [Link](https://github.com/asrjy/gpu)                                                        | 🎖️🎖️            |
@@ -165,7 +165,6 @@ Last update: 2025.03.10
 | Name              | Repository                                                  |
 | ----------------- | ----------------------------------------------------------- |
 | ahmedgu2            | [Link](https://github.com/ahmedgu2/cuda_cpp_programming)    |
-| aryagxr             | [Link](https://github.com/aryagxr/cuda)                     |
 | gauravparajuli      | [Link](https://github.com/gauravparajuli/100-days-of-cuda)  |
 | gParshav            | [Link](https://github.com/gParshav/100-days-of-GPU)         |
 | mananchawla2005     | [Link](https://github.com/mananchawla2005/gpukernels/)      |
@@ -187,6 +186,7 @@ Last update: 2025.03.10
 | ShlokVFX            | [Link](https://github.com/ShlokVFX/100-days-cuda/)          |
 | SwekeR-463 | [Link](https://github.com/SwekeR-463/100kernels)            |
 | vectorquantized     | [Link](https://github.com/vectorquantized/100daysofcuda)    |
+| aryagxr             | [Link](https://github.com/aryagxr/cuda)                     |
 
 ## Participants (50 days badge)
 
