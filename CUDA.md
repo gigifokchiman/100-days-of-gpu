@@ -22,7 +22,7 @@ Announce your repo in the Discord channel and we will verify if you actually del
 
 ## List of active challanges
 
-Last update: 2025.03.11
+Last update: 2025.03.12
 
 | Name                | Repository                                                                                  | Badges           |
 | ------------------- | ------------------------------------------------------------------------------------------- |------------------|
@@ -47,7 +47,7 @@ Last update: 2025.03.11
 | AyoubMDL            | [Link](https://github.com/AyoubMDL/cuda)                                                    | 🎖️🎖️            |
 | bhavyashahh         | [Link](https://github.com/bhavyashahh/nexus-ai/tree/main/projects/bhavya-100-days-of-cuda/) |                  |
 | binarycache         | [Link](https://github.com/binarycache/100-days-of-GPU)                                      | 🎖️🎖️            |
-| chinmaydk99         | [Link](https://github.com/chinmaydk99/100-Days-Of-CUDA/)                                    | 🎖️🎖️            |
+| chinmaydk99         | [Link](https://github.com/chinmaydk99/100-Days-Of-CUDA/)                                    | 🎖️🎖️🎖️          |
 | derekdeming         | [Link](https://github.com/derekdeming/tinyCuda)                                             |                  |
 | doudi25             | [Link](https://github.com/doudi25/Triton)                                                   |                  |
 | emre570             | [Link](https://github.com/emre570/100-days-CUDA)                                            |                  |
@@ -56,6 +56,7 @@ Last update: 2025.03.11
 | gauravparajuli      | [Link](https://github.com/gauravparajuli/100-days-of-cuda)                                  | 🎖️🎖️🎖️          |
 | gParshav            | [Link](https://github.com/gParshav/100-days-of-GPU)                                         | 🎖️🎖️🎖️          |
 | harshkumarchourasia | [Link](https://github.com/harshkumarchourasia/100DaysOfGPU)                                 | 🎖️               |
+| JiaxinLu98          | [Link](https://github.com/JiaxinLu98/CUDA-Challenge/)                                       |                  |
 | JINO-ROHIT          | [Link]( https://github.com/JINO-ROHIT/advanced_ml/)                                         |                  |
 | jsmidt              | [Link](https://github.com/jsmidt/100-days-of-grind)                                         | 🎖️               |
 | johannn05           | [Link](https://github.com/johannn05/100DaysCUDA)                                            | 🎖️               |
@@ -65,14 +66,17 @@ Last update: 2025.03.11
 | khushwant04         | [Link](https://github.com/khushwant04/100-Days-CUDA)                                        |                  |
 | kmohan321           | [Link](https://github.com/kmohan321/CUDA)                                                   | 🎖️🎖️🎖️🎖️       |
 | kosbeko             | [Link](https://github.com/kosbeko/100DaysGPU)                                               |                  |
+| krmdel              | [Link](https://github.com/krmdel/120_days_of_CUDA_challenge)                                |                  |
 | LakshyaSingh354     | [Link](https://github.com/LakshyaSingh354/100-days-of-cuda)                                 |                  |
 | LJXjean             | [Link](https://github.com/LJXjean/100daysGPU/)                                              |                  |
+| Majd-8              | [Link](https://github.com/Majd-8/100-Days-GPU-Challenge/)                                   |                  |
 | mananchawla2005     | [Link](https://github.com/mananchawla2005/gpukernels/)                                      | 🎖️🎖️🎖️          |
 | Marvin-desmond      | [Link](https://github.com/Marvin-desmond/100-days-of-gpu/)                                  |                  |
 | mathysgrapotte      | [Link](https://github.com/mathysgrapotte/100DaysCUDA/)                                      | 🎖️               |
 | Meeex2              | [Link](https://github.com/Meeex2/cuda/)                                                     | 🎖️🎖️🎖️🎖️       |
 | MoAbbasid           | [Link](https://github.com/MoAbbasid/100DaysCUDA/)                                           | 🎖️               |
 | ModeEric            | [Link](https://github.com/ModeEric/100-Days-of-CUDA)                                        |                  |
+| mohammedhatimkhan   | [Link](https://github.com/mohammedhatimkhan/100_Days_CUDA/)                                 |                  |
 | MahmoudMohajer      | [Link](https://github.com/MahmoudMohajer/Hundred-Day-GPU-Challenge)                         | 🎖️               |
 | Monarch-25          | [Link](https://github.com/Monarch-25/100-nights-of-Cuda)                                    |                  |
 | Mustafa-Mar3ee      | [Link](https://github.com/Mustafa-Mar3ee/100_days_of_GPU_challenge/)                        |                  |
@@ -157,7 +161,6 @@ Last update: 2025.03.11
 | AyoubMDL            | [Link](https://github.com/AyoubMDL/cuda)                    |
 | asrjy               | [Link](https://github.com/asrjy/gpu)                        |
 | binarycache         | [Link](https://github.com/binarycache/100-days-of-GPU)      |
-| chinmaydk99         | [Link](https://github.com/chinmaydk99/100-Days-Of-CUDA/)    |
 | Nithish-Yadav-31    | [Link](https://github.com/Nithish-Yadav-31/CUDA-kernels-100-Days/) |
 | saurav997           | [Link](https://github.com/saurav997/100DaysOfCuda)          |
 
@@ -170,6 +173,7 @@ Last update: 2025.03.11
 | Name              | Repository                                                  |
 | ----------------- | ----------------------------------------------------------- |
 | ahmedgu2            | [Link](https://github.com/ahmedgu2/cuda_cpp_programming)    |
+| chinmaydk99         | [Link](https://github.com/chinmaydk99/100-Days-Of-CUDA/)    |
 | gauravparajuli      | [Link](https://github.com/gauravparajuli/100-days-of-cuda)  |
 | gParshav            | [Link](https://github.com/gParshav/100-days-of-GPU)         |
 | mananchawla2005     | [Link](https://github.com/mananchawla2005/gpukernels/)      |
