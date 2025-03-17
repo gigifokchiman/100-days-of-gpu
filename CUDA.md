@@ -22,7 +22,7 @@ Announce your repo in the Discord channel and we will verify if you actually del
 
 ## List of active challanges
 
-Last update: 2025.03.16
+Last update: 2025.03.17
 
 | Name                | Repository                                                                                  | Badges           |
 | ------------------- | ------------------------------------------------------------------------------------------- |------------------|
@@ -83,6 +83,7 @@ Last update: 2025.03.16
 | Mu7annad0           | [Link](https://github.com/Mu7annad0/100GPU/)                                                |                  |
 | Mustafa-Mar3ee      | [Link](https://github.com/Mustafa-Mar3ee/100_days_of_GPU_challenge/)                        |                  |
 | MZSHAN              | [Link](https://github.com/MZSHAN/iqra/tree/main/100daysCuda)                                | 🎖️               |
+| NAS2pwn             | [Link](https://github.com/NAS2pwn/100-days-of-CUDA)                                         |                   |
 | nevernever69        | [Link](https://github.com/nevernever69/100-days-of-cuda)                                    | 🎖️               |
 | Nithish-Yadav-31    | [Link](https://github.com/Nithish-Yadav-31/CUDA-kernels-100-Days/)                          | 🎖️🎖️             |
 | Noman-Ali-Bajwa     | [Link](https://github.com/Noman-Ali-Bajwa/100-days-of-cuda/)                                |                  |
@@ -207,15 +208,17 @@ Last update: 2025.03.16
 
 | Name       | Repository                                                  |
 | ---------- | ----------------------------------------------------------- |
-| 1y33       | [Link](https://github.com/1y33/100Days)                     |
-| a-hamdi    | [Link](https://github.com/a-hamdi/cuda/)                    |
 | SwekeR-463 | [Link](https://github.com/SwekeR-463/100kernels)            |
 
 It's fine if your professors never believed in you, we do
 
 ## Participants (60 days badge)
+![Badge 60 days](badges/badge_60_days_small.jpg)
 
-How about you code a kernel that does something you never did before?
+| Name       | Repository                                                  |
+| ---------- | ----------------------------------------------------------- |
+| 1y33       | [Link](https://github.com/1y33/100Days)                     |
+| a-hamdi    | [Link](https://github.com/a-hamdi/cuda/)                    |
 
 ## Participants (70 days badge)
 
