@@ -22,7 +22,7 @@ Announce your repo in the Discord channel and we will verify if you actually del
 
 ## List of active challanges
 
-Last update: 2025.03.20
+Last update: 2025.03.21
 
 | Name                | Repository                                                                                  | Badges           |
 | ------------------- | ------------------------------------------------------------------------------------------- |------------------|
