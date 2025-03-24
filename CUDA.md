@@ -22,7 +22,7 @@ Announce your repo in the Discord channel and we will verify if you actually del
 
 ## List of active challanges
 
-Last update: 2025.03.22
+Last update: 2025.03.24
 
 | Name                | Repository                                                                                  | Badges           |
 | ------------------- | ------------------------------------------------------------------------------------------- |------------------|
@@ -33,7 +33,7 @@ Last update: 2025.03.22
 | AkashKarnatak       | [Link](https://github.com/AkashKarnatak/100-days-of-cuda/)                                  | 🎖️🎖️🎖️          |
 | Alexey Zaytsev      | [Link](https://xl0.github.io/cuda-100/)                                                     | 🎖️               |
 | alvarocalafell      | [Link](https://github.com/alvarocalafell/CUDAKernels)                                       |                  |
-| AmarnathaGowda      | [Link](https://github.com/AmarnathaGowda/50daysCUDA)                                        | 🎖️               |
+| AmarnathaGowda      | [Link](https://github.com/AmarnathaGowda/50daysCUDA)                                        | 🎖️🎖️🎖️🎖️       |
 | Ankisha             | [Link](https://github.com/Ankisha/cuda/)                                                    |                  |
 | AnirudhKashyap511   | [Link](https://github.com/AnirudhKashyap511/100DaysOfCUDA/)                                 |                  |
 | AnkitTsj            | [Link](https://github.com/AnkitTsj/cuda_learning)                                           | 🎖️               |
@@ -56,7 +56,7 @@ Last update: 2025.03.22
 | gauravparajuli      | [Link](https://github.com/gauravparajuli/100-days-of-cuda)                                  | 🎖️🎖️🎖️          |
 | gParshav            | [Link](https://github.com/gParshav/100-days-of-GPU)                                         | 🎖️🎖️🎖️          |
 | harshkumarchourasia | [Link](https://github.com/harshkumarchourasia/100DaysOfGPU)                                 | 🎖️               |
-| JiaxinLu98          | [Link](https://github.com/JiaxinLu98/CUDA-Challenge/)                                       |                  |
+| JiaxinLu98          | [Link](https://github.com/JiaxinLu98/CUDA-Challenge/)                                       | 🎖️               |
 | JINO-ROHIT          | [Link]( https://github.com/JINO-ROHIT/advanced_ml/)                                         |                  |
 | jsmidt              | [Link](https://github.com/jsmidt/100-days-of-grind)                                         | 🎖️               |
 | johannn05           | [Link](https://github.com/johannn05/100DaysCUDA)                                            | 🎖️               |
@@ -133,9 +133,9 @@ Last update: 2025.03.22
 | ------------------- | ------------------------------------------------------------|
 | 2395959141          | [Link](https://github.com/2395959141/100-days-of-cuda)      |
 | Alexey Zaytsev      | [Link](https://xl0.github.io/cuda-100/)                     |
-| AmarnathaGowda      | [Link](https://github.com/AmarnathaGowda/50daysCUDA)        |
 | AnkitTsj            | [Link](https://github.com/AnkitTsj/cuda_learning)           |
 | harshkumarchourasia | [Link](https://github.com/harshkumarchourasia/100DaysOfGPU) |
+| JiaxinLu98          | [Link](https://github.com/JiaxinLu98/CUDA-Challenge/)       |
 | johannn05           | [Link](https://github.com/johannn05/100DaysCUDA/)           |
 | JungHoyoun          | [Link](https://github.com/JungHoyoun/100days-gpu-challenge) |
 | jsmidt              | [Link](https://github.com/jsmidt/100-days-of-grind)         |
@@ -194,6 +194,7 @@ Last update: 2025.03.22
 
 | Name       | Repository                                                  |
 | ---------- | ----------------------------------------------------------- |
+| AmarnathaGowda      | [Link](https://github.com/AmarnathaGowda/50daysCUDA)        |
 | chinmaydk99         | [Link](https://github.com/chinmaydk99/100-Days-Of-CUDA/)    |
 | mananchawla2005     | [Link](https://github.com/mananchawla2005/gpukernels/)      |
 | Sayandip170900      | [Link](https://github.com/Sayandip170900/CUDA-Challenge)    |
