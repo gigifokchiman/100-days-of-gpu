@@ -22,7 +22,7 @@ Announce your repo in the Discord channel and we will verify if you actually del
 
 ## List of active challanges 
 
-Last update: 2025.03.24
+Last update: 2025.03.26
 
 | Name                | Repository                                                                                  | Badges           |
 | ------------------- | ------------------------------------------------------------------------------------------- |------------------|
@@ -30,7 +30,7 @@ Last update: 2025.03.24
 | 1y33                | [Link](https://github.com/1y33/100Days)                                                     | 🎖️🎖️🎖️🎖️🎖️🎖️🎖️     |
 | a-hamdi             | [Link](https://github.com/a-hamdi/cuda)                                                     | 🎖️🎖️🎖️🎖️🎖️🎖️🎖️     |
 | ahmedgu2            | [Link](https://github.com/ahmedgu2/cuda_cpp_programming)                                    | 🎖️🎖️🎖️          |
-| AkashKarnatak       | [Link](https://github.com/AkashKarnatak/100-days-of-cuda/)                                  | 🎖️🎖️🎖️          |
+| AkashKarnatak       | [Link](https://github.com/AkashKarnatak/100-days-of-cuda/)                                  | 🎖️🎖️🎖️🎖️        |
 | Alexey Zaytsev      | [Link](https://xl0.github.io/cuda-100/)                                                     | 🎖️               |
 | alvarocalafell      | [Link](https://github.com/alvarocalafell/CUDAKernels)                                       |                  |
 | AmarnathaGowda      | [Link](https://github.com/AmarnathaGowda/50daysCUDA)                                        | 🎖️🎖️🎖️🎖️       |
@@ -179,7 +179,6 @@ Last update: 2025.03.24
 | Name              | Repository                                                  |
 | ----------------- | ----------------------------------------------------------- |
 | ahmedgu2            | [Link](https://github.com/ahmedgu2/cuda_cpp_programming)    |
-| AkashKarnatak       | [Link](https://github.com/AkashKarnatak/100-days-of-cuda/)  |
 | gauravparajuli      | [Link](https://github.com/gauravparajuli/100-days-of-cuda)  |
 | gParshav            | [Link](https://github.com/gParshav/100-days-of-GPU)         |
 | palxx               | [Link](https://github.com/palxx/_100_days_of_CUDA/)         |
@@ -194,6 +193,7 @@ Last update: 2025.03.24
 
 | Name       | Repository                                                  |
 | ---------- | ----------------------------------------------------------- |
+| AkashKarnatak       | [Link](https://github.com/AkashKarnatak/100-days-of-cuda/)  |
 | AmarnathaGowda      | [Link](https://github.com/AmarnathaGowda/50daysCUDA)        |
 | chinmaydk99         | [Link](https://github.com/chinmaydk99/100-Days-Of-CUDA/)    |
 | mananchawla2005     | [Link](https://github.com/mananchawla2005/gpukernels/)      |
