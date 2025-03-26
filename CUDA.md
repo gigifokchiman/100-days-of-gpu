@@ -20,15 +20,15 @@ Official onboarding guide:
 
 Announce your repo in the Discord channel and we will verify if you actually delivered high quality code consistently. If you did, your name will appear here.
 
-## List of active challanges
+## List of active challanges 
 
 Last update: 2025.03.24
 
 | Name                | Repository                                                                                  | Badges           |
 | ------------------- | ------------------------------------------------------------------------------------------- |------------------|
 | 2395959141          | [Link](https://github.com/2395959141/100-days-of-cuda)                                      | 🎖️               |
-| 1y33                | [Link](https://github.com/1y33/100Days)                                                     | 🎖️🎖️🎖️🎖️🎖️     |
-| a-hamdi             | [Link](https://github.com/a-hamdi/cuda)                                                     | 🎖️🎖️🎖️🎖️🎖️     |
+| 1y33                | [Link](https://github.com/1y33/100Days)                                                     | 🎖️🎖️🎖️🎖️🎖️🎖️🎖️     |
+| a-hamdi             | [Link](https://github.com/a-hamdi/cuda)                                                     | 🎖️🎖️🎖️🎖️🎖️🎖️🎖️     |
 | ahmedgu2            | [Link](https://github.com/ahmedgu2/cuda_cpp_programming)                                    | 🎖️🎖️🎖️          |
 | AkashKarnatak       | [Link](https://github.com/AkashKarnatak/100-days-of-cuda/)                                  | 🎖️🎖️🎖️          |
 | Alexey Zaytsev      | [Link](https://xl0.github.io/cuda-100/)                                                     | 🎖️               |
@@ -228,17 +228,26 @@ It's fine if your professors never believed in you, we do
 | a-hamdi    | [Link](https://github.com/a-hamdi/cuda/)                    |
 
 ## Participants (70 days badge)
+![Badge 70 days](badges/badge_70_days_small.png)
+
+| Name       | Repository                                                  |
+| ---------- | ----------------------------------------------------------- |
+| 1y33       | [Link](https://github.com/1y33/100Days)                     |
+| a-hamdi    | [Link](https://github.com/a-hamdi/cuda/)                    |
 
 Do you want to spend your life think about coding or just code?
 
 ## Participants (80 days badge)
+![Badge 80 days](badges/badge_80_days_small.png)
 
 Jensen Huang would be proud of you
 
 ## Participants (90 days badge)
+![Badge 90 days](badges/badge_90_days_small.png)
 
 It's like a marathon, but with CUDA
 
 ## Participants (100 days badge)
+![Badge 100 days](badges/badge_100_days_small.png)
 
 You are now a CUDA warrior
