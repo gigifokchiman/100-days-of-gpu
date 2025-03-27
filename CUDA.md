@@ -65,7 +65,7 @@ Last update: 2025.03.27
 | karthi-vijayakumaar | [Link](https://github.com/karthi-vijayakumaar/cuda-experiments/)                            |                  |
 | kartik-pz           | [Link](https://github.com/kartik-pz/cuda)                                                   |                  |
 | khushwant04         | [Link](https://github.com/khushwant04/100-Days-CUDA)                                        |                  |
-| kmohan321           | [Link](https://github.com/kmohan321/CUDA)                                                   | 🎖️🎖️🎖️🎖️🎖️     |
+| kmohan321           | [Link](https://github.com/kmohan321/CUDA)                                                   | 🎖️🎖️🎖️🎖️🎖️🎖️     |
 | kosbeko             | [Link](https://github.com/kosbeko/100DaysGPU)                                               |                  |
 | koushik-sss         | [Link](https://github.com/koushik-sss/100-day-cuda-challenge)                               |                  |
 | krmdel              | [Link](https://github.com/krmdel/120_days_of_CUDA_challenge)                                | 🎖️🎖️            |
@@ -99,7 +99,7 @@ Last update: 2025.03.27
 | PredictiveManish    | [Link](https://github.com/PredictiveManish/100days)                                         |                  |
 | prem-16             | [Link](https://github.com/prem-16/100-days-CUDA-challenge/)                                 |                  |
 | psvkaushik          | [Link](https://github.com/psvkaushik/100_Days_CUDA)                                         | 🎖️               |
-| rajneel18           | [Link](https://github.com/rajneel18/100_CUDA_Kernels)                                       | 🎖️🎖️🎖️🎖️🎖️     |
+| rajneel18           | [Link](https://github.com/rajneel18/100_CUDA_Kernels)                                       | 🎖️🎖️🎖️🎖️🎖️🎖️   |
 | raut7218            | [Link](https://github.com/raut7218/100_Days_of_cuda_and_PyTorch/)                           |                  |
 | redrodeo03          | [Link](https://github.com/redrodeo03/cuda-kernels/)                                         |                  |
 | RookieLiao          | [Link](https://github.com/RookieLiao/tiny-cuda-examples)                                    | 🎖️               |
@@ -210,9 +210,7 @@ Last update: 2025.03.27
 | ---------- | ----------------------------------------------------------- |
 | aryagxr    | [Link](https://github.com/aryagxr/cuda)                     |
 | Firojpaudel| [Link](https://github.com/Firojpaudel/100_days_of_CUDA)     |
-| kmohan321  | [Link](https://github.com/kmohan321/CUDA)                   |
 | Meeex2     | [Link](https://github.com/Meeex2/cuda/)                     |
-| rajneel18  | [Link](https://github.com/rajneel18/100_CUDA_Kernels)       |
 | ShlokVFX   | [Link](https://github.com/ShlokVFX/100-days-cuda/)          |
 | SwekeR-463 | [Link](https://github.com/SwekeR-463/100kernels)            |
 | vectorquantized | [Link](https://github.com/vectorquantized/100daysofcuda)    |
@@ -225,8 +223,8 @@ It's fine if your professors never believed in you, we do
 
 | Name       | Repository                                                  |
 | ---------- | ----------------------------------------------------------- |
-| 1y33       | [Link](https://github.com/1y33/100Days)                     |
-| a-hamdi    | [Link](https://github.com/a-hamdi/cuda/)                    |
+| kmohan321  | [Link](https://github.com/kmohan321/CUDA)                   |
+| rajneel18  | [Link](https://github.com/rajneel18/100_CUDA_Kernels)       |
 
 ## Participants (70 days badge)
 ![Badge 70 days](badges/badge_70_days_small.png)
