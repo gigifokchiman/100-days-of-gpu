@@ -22,7 +22,7 @@ Announce your repo in the Discord channel and we will verify if you actually del
 
 ## List of active challanges 
 
-Last update: 2025.03.29
+Last update: 2025.03.30
 
 | Name                | Repository                                                                                  | Badges           |
 | ------------------- | ------------------------------------------------------------------------------------------- |------------------|
@@ -40,7 +40,7 @@ Last update: 2025.03.29
 | AnkitTsj            | [Link](https://github.com/AnkitTsj/cuda_learning)                                           | 🎖️               |
 | AramBughdaryan      | [Link](https://github.com/AramBughdaryan/cuda)                                              | 🎖️🎖️            |
 | arcAman07           | [Link](https://github.com/arcAman07/100-Days-of-GPU-Programming)                            |                  |
-| aryagxr             | [Link](https://github.com/aryagxr/cuda)                                                     | 🎖️🎖️🎖️🎖️🎖️     |
+| aryagxr             | [Link](https://github.com/aryagxr/cuda)                                                     | 🎖️🎖️🎖️🎖️🎖️🎖️     |
 | ashish-kubade       | [Link](https://github.com/ashish-kubade/cuda-100-days/)                                     |                  |
 | ashwin3005          | [Link](https://github.com/ashwin3005/CUDA)                                                  | 🎖️🎖️            |
 | asrjy               | [Link](https://github.com/asrjy/gpu)                                                        | 🎖️🎖️            |
@@ -95,7 +95,7 @@ Last update: 2025.03.29
 | palxx               | [Link](https://github.com/palxx/_100_days_of_CUDA/)                                         | 🎖️🎖️🎖️         |
 | poornima            | [Link](https://gitfront.io/r/poornima/ZqGjpMngbU7T/cuda-100-days/)                          |                  |
 | Praneet9            | [Link](https://github.com/Praneet9/GPUProgramming)                                          | 🎖️                 |
-| Pranavbp525         | [Link](https://github.com/Pranavbp525/100-days-of-CUDA/)                                    | 🎖️               |
+| Pranavbp525         | [Link](https://github.com/Pranavbp525/100-days-of-CUDA/)                                    | 🎖️🎖️               |
 | prateekshukla1108   | [Link](https://github.com/prateekshukla1108/100-daysofcuda)                                 | 🎖️🎖️🎖️          |
 | PredictiveManish    | [Link](https://github.com/PredictiveManish/100days)                                         |                  |
 | prem-16             | [Link](https://github.com/prem-16/100-days-CUDA-challenge/)                                 |                  |
@@ -108,7 +108,7 @@ Last update: 2025.03.29
 | sanjivch            | [Link](https://github.com/sanjivch/100-days-of-gpu)                                         |                  |
 | saurav997           | [Link](https://github.com/saurav997/100DaysOfCuda)                                          | 🎖️🎖️            |
 | Sayandip170900      | [Link](https://github.com/Sayandip170900/CUDA-Challenge)                                    | 🎖️🎖️🎖️🎖️       |
-| shirolesandeep      | [Link](https://github.com/shirolesandeep/100-days-gpu-challenge)                            |                  |
+| shirolesandeep      | [Link](https://github.com/shirolesandeep/100-days-gpu-challenge)                            | 🎖️🎖️            |
 | ShlokVFX            | [Link](https://github.com/ShlokVFX/100-days-cuda/)                                          | 🎖️🎖️🎖️🎖️🎖️     |
 | Shriharsh7          | [Link](https://github.com/Shriharsh7/100_Days_Of_CUDA/)                                     |                  |
 | skj092              | [Link](https://github.com/skj092/cuda-programming)                                          | 🎖️               |
@@ -149,7 +149,6 @@ Last update: 2025.03.29
 | nevernever69        | [Link](https://github.com/nevernever69/100-days-of-cuda)    |
 | Omkar-Kakade-Github | [Link](https://github.com/Omkar-Kakade-Github/100_days_of_GPU_challenge) |
 | p-kris10            | [Link](https://github.com/p-kris10/100DaysofGPU)            |
-| Pranavbp525         | [Link](https://github.com/Pranavbp525/100-days-of-CUDA/)    |
 | Praneet9            | [Link](https://github.com/Praneet9/GPUProgramming)          |
 | psvkaushik          | [Link](https://github.com/psvkaushik/100_Days_CUDA)         |
 | RookieLiao          | [Link](https://github.com/RookieLiao/tiny-cuda-examples)    |
@@ -172,7 +171,9 @@ Last update: 2025.03.29
 | binarycache         | [Link](https://github.com/binarycache/100-days-of-GPU)      |
 | krmdel              | [Link](https://github.com/krmdel/120_days_of_CUDA_challenge) |
 | Nithish-Yadav-31    | [Link](https://github.com/Nithish-Yadav-31/CUDA-kernels-100-Days/) |
+| Pranavbp525         | [Link](https://github.com/Pranavbp525/100-days-of-CUDA/)    |
 | saurav997           | [Link](https://github.com/saurav997/100DaysOfCuda)          |
+| shirolesandeep      | [Link](https://github.com/shirolesandeep/100-days-gpu-challenge) |
 
 
 
@@ -211,7 +212,6 @@ Last update: 2025.03.29
 
 | Name       | Repository                                                  |
 | ---------- | ----------------------------------------------------------- |
-| aryagxr    | [Link](https://github.com/aryagxr/cuda)                     |
 | ShlokVFX   | [Link](https://github.com/ShlokVFX/100-days-cuda/)          |
 | SwekeR-463 | [Link](https://github.com/SwekeR-463/100kernels)            |
 
@@ -224,6 +224,7 @@ It's fine if your professors never believed in you, we do
 
 | Name       | Repository                                                  |
 | ---------- | ----------------------------------------------------------- |
+| aryagxr    | [Link](https://github.com/aryagxr/cuda)                     |
 | Firojpaudel| [Link](https://github.com/Firojpaudel/100_days_of_CUDA)     |
 | kmohan321  | [Link](https://github.com/kmohan321/CUDA)                   |
 | Meeex2     | [Link](https://github.com/Meeex2/cuda/)                     |
