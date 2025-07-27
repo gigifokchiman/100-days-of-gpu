@@ -1,5 +1,4 @@
 #include <stdio.h>              // Standard C header
-#include <time.h>               // For timing measurements
 #include <cuda_runtime.h>       // CUDA-SPECIFIC: CUDA runtime API header
 
 // CUDA-SPECIFIC: __global__ declares a GPU kernel function
@@ -36,11 +35,11 @@ int main(void)
         exit(EXIT_FAILURE);
     }
     
-    // Initialize with random values for testing
+    // Initialize with sequential values for consistent performance testing
     for (int i = 0; i < numElements; ++i)
     {
-        h_A[i] = rand()/(float)RAND_MAX;  // Random float between 0.0 and 1.0
-        h_B[i] = rand()/(float)RAND_MAX;
+        h_A[i] = (float)i;        // Sequential values for predictable performance
+        h_B[i] = (float)(i * 2);
     }
     
     // Device (GPU) memory pointers
@@ -49,6 +48,11 @@ int main(void)
     float *d_C = NULL;
     // CUDA-SPECIFIC: Error handling type
     cudaError_t err = cudaSuccess;
+    
+    // ========== CUDA EVENTS FOR PRECISE GPU TIMING ==========
+    cudaEvent_t start_event, stop_event;
+    cudaEventCreate(&start_event);
+    cudaEventCreate(&stop_event);
     
     // ========== PRODUCTION FEATURE: Error Checking for GPU Allocation ==========
     // CUDA-SPECIFIC: Allocate memory on GPU device
@@ -76,8 +80,8 @@ int main(void)
     }
     
 
-    // ========== TIMING: Start measurement ==========
-    clock_t start_time = clock();
+    // ========== TIMING: Start GPU measurement ==========
+    cudaEventRecord(start_event);
     
     // CUDA-SPECIFIC: Copy data from host (CPU) to device (GPU)
     err = cudaMemcpy(d_A, h_A, size, cudaMemcpyHostToDevice);
@@ -124,9 +128,11 @@ int main(void)
         exit(EXIT_FAILURE);
     }
     
-    // ========== TIMING: End measurement ==========
-    clock_t end_time = clock();
-    double gpu_time = ((double)(end_time - start_time)) / CLOCKS_PER_SEC * 1000.0;
+    // ========== TIMING: End GPU measurement ==========
+    cudaEventRecord(stop_event);
+    cudaEventSynchronize(stop_event);
+    float gpu_time = 0;
+    cudaEventElapsedTime(&gpu_time, start_event, stop_event);
     
     // ========== PRODUCTION FEATURE: Result Verification ==========
     // Validate that GPU computation matches expected results
@@ -147,6 +153,10 @@ int main(void)
     cudaFree(d_A);
     cudaFree(d_B);
     cudaFree(d_C);
+    
+    // Clean up CUDA events
+    cudaEventDestroy(start_event);
+    cudaEventDestroy(stop_event);
     
     // Standard C: Free CPU memory
     free(h_A);
