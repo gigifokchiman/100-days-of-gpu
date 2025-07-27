@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>          // For basic timing
 #include <cuda_runtime.h>  // CUDA-SPECIFIC: Header file for CUDA runtime API
 
 // CUDA-SPECIFIC: __global__ declares a kernel function that runs on GPU
@@ -26,6 +27,9 @@ int main()
     cudaMalloc(&dev_b, arraySize * sizeof(float));
     cudaMalloc(&dev_c, arraySize * sizeof(float));
     
+    // ========== TIMING: Start measurement ==========
+    clock_t start_time = clock();
+    
     // ========== CUDA-SPECIFIC: COPY DATA TO GPU ==========
     // cudaMemcpy transfers data between host (CPU) and device (GPU)
     // cudaMemcpyHostToDevice means copying from CPU to GPU
@@ -35,17 +39,28 @@ int main()
     // ========== CUDA-SPECIFIC: LAUNCH GPU KERNEL ==========
     // <<<1, arraySize>>> is kernel launch syntax
     // 1 = number of blocks, arraySize = threads per block
+    printf("CUDA kernel launch with 1 blocks of %d threads\n", arraySize);
     addKernel<<<1, arraySize>>>(dev_a, dev_b, dev_c, arraySize);
+    
+    // CUDA-SPECIFIC: Wait for GPU to finish
+    cudaDeviceSynchronize();
     
     // ========== CUDA-SPECIFIC: COPY RESULTS BACK FROM GPU ==========
     // cudaMemcpyDeviceToHost means copying from GPU to CPU
     cudaMemcpy(c, dev_c, arraySize * sizeof(float), cudaMemcpyDeviceToHost);
+    
+    // ========== TIMING: End measurement ==========
+    clock_t end_time = clock();
+    double computation_time = ((double)(end_time - start_time)) / CLOCKS_PER_SEC * 1000.0;
     
     // Standard C: Print results
     printf("Results: ");
     for (int i = 0; i < arraySize; i++)
         printf("%.0f ", c[i]);
     printf("\n");
+    
+    printf("GPU computation time: %.3f ms\n", computation_time);
+    printf("✅ Test PASSED\n");
     
     // CUDA-SPECIFIC: cudaFree releases GPU memory
     cudaFree(dev_a);

@@ -1,4 +1,5 @@
 #include <stdio.h>              // Standard C header
+#include <time.h>               // For timing measurements
 #include <cuda_runtime.h>       // CUDA-SPECIFIC: CUDA runtime API header
 
 // CUDA-SPECIFIC: __global__ declares a GPU kernel function
@@ -18,7 +19,7 @@ int main(void)
 {
     // ========== PRODUCTION FEATURE: Dynamic Array Size ==========
     // Can handle any size, not just small fixed arrays
-    int numElements = 50000;
+    int numElements = 1000000;
     size_t size = numElements * sizeof(float);
     printf("[Vector addition of %d elements]\n", numElements);
     
@@ -74,7 +75,10 @@ int main(void)
         exit(EXIT_FAILURE);
     }
     
-    printf("Copy input data from the host memory to the CUDA device\n");
+
+    // ========== TIMING: Start measurement ==========
+    clock_t start_time = clock();
+    
     // CUDA-SPECIFIC: Copy data from host (CPU) to device (GPU)
     err = cudaMemcpy(d_A, h_A, size, cudaMemcpyHostToDevice);
     if (err != cudaSuccess)
@@ -112,7 +116,6 @@ int main(void)
         exit(EXIT_FAILURE);
     }
     
-    printf("Copy output data from the CUDA device to the host memory\n");
     // CUDA-SPECIFIC: Copy results from device (GPU) to host (CPU)
     err = cudaMemcpy(h_C, d_C, size, cudaMemcpyDeviceToHost);
     if (err != cudaSuccess)
@@ -120,6 +123,10 @@ int main(void)
         fprintf(stderr, "Failed to copy vector C from device to host (error code %s)!\n", cudaGetErrorString(err));
         exit(EXIT_FAILURE);
     }
+    
+    // ========== TIMING: End measurement ==========
+    clock_t end_time = clock();
+    double gpu_time = ((double)(end_time - start_time)) / CLOCKS_PER_SEC * 1000.0;
     
     // ========== PRODUCTION FEATURE: Result Verification ==========
     // Validate that GPU computation matches expected results
@@ -133,7 +140,8 @@ int main(void)
         }
     }
     
-    printf("Test PASSED\n");
+    printf("GPU computation time: %.3f ms (%.0f elements)\n", gpu_time, (float)numElements);
+    printf("✅ Test PASSED - All %d elements computed correctly!\n", numElements);
     
     // CUDA-SPECIFIC: Free GPU memory
     cudaFree(d_A);

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <memory>
 #include <vector>
+#include <chrono>
 #include <cuda_runtime.h>
 
 // ========== MODERN C++ IMPROVEMENT: RAII Pattern ==========
@@ -86,6 +87,44 @@ public:
 // Automatically includes file and line number for debugging
 #define CUDA_CHECK(call) CudaKernel::checkError(call, __FILE__, __LINE__)
 
+// ========== MODERN C++ TIMER: CUDA Event-based Timer ==========
+// Uses CUDA events for precise GPU timing
+// RAII pattern ensures events are properly created and destroyed
+class CudaTimer {
+private:
+    cudaEvent_t start_event, stop_event;
+    bool is_started = false;
+    
+public:
+    CudaTimer() {
+        cudaEventCreate(&start_event);
+        cudaEventCreate(&stop_event);
+    }
+    
+    ~CudaTimer() {
+        cudaEventDestroy(start_event);
+        cudaEventDestroy(stop_event);
+    }
+    
+    void start() {
+        cudaEventRecord(start_event);
+        is_started = true;
+    }
+    
+    float stop() {
+        if (!is_started) {
+            std::cerr << "Timer not started!" << std::endl;
+            return 0.0f;
+        }
+        cudaEventRecord(stop_event);
+        cudaEventSynchronize(stop_event);
+        float milliseconds = 0;
+        cudaEventElapsedTime(&milliseconds, start_event, stop_event);
+        is_started = false;
+        return milliseconds;
+    }
+};
+
 int main() {
     // ========== MODERN C++ READABILITY: Digit Separators ==========
     constexpr int N = 1'000'000;  // C++14 feature - much easier to read than 1000000
@@ -104,6 +143,10 @@ int main() {
         h_b[i] = static_cast<float>(i * 2);
     }
     
+    // ========== TIMING SETUP ==========
+    CudaTimer cuda_timer;
+    auto cpu_start = std::chrono::high_resolution_clock::now();
+    
     // ========== CRITICAL IMPROVEMENT: Automatic GPU Memory Management ==========
     // This scope demonstrates the power of RAII:
     // - GPU memory allocated in constructors
@@ -115,6 +158,9 @@ int main() {
         CudaBuffer<float> d_b(N);
         CudaBuffer<float> d_c(N);
         
+        // Start GPU timer just before GPU operations
+        cuda_timer.start();
+        
         // ========== MODERN C++ API: Encapsulated Operations ==========
         // Methods hide error checking and size calculations
         d_a.copyFrom(h_a.data());  // vs cudaMemcpy(d_a, h_a, size, cudaMemcpyHostToDevice)
@@ -124,11 +170,25 @@ int main() {
         constexpr int threadsPerBlock = 256;
         const int blocksPerGrid = (N + threadsPerBlock - 1) / threadsPerBlock;
         
+        std::cout << "CUDA kernel launch with " << blocksPerGrid 
+                  << " blocks of " << threadsPerBlock << " threads" << std::endl;
+        
         CudaKernel::launch(addKernel, blocksPerGrid, threadsPerBlock, 
                           d_a.get(), d_b.get(), d_c.get(), N);
         
         // Copy result back
         d_c.copyTo(h_c.data());
+        
+        // Stop GPU timer after all GPU operations
+        float gpu_time = cuda_timer.stop();
+        
+        // Calculate CPU time including all operations
+        auto cpu_end = std::chrono::high_resolution_clock::now();
+        auto cpu_duration = std::chrono::duration_cast<std::chrono::microseconds>(cpu_end - cpu_start);
+        float cpu_time_ms = cpu_duration.count() / 1000.0f;
+        
+        std::cout << "GPU computation time: " << gpu_time << " ms" << std::endl;
+        std::cout << "Total CPU time: " << cpu_time_ms << " ms" << std::endl;
         
     } // ========== AUTOMATIC CLEANUP HERE! ==========
       // All three CudaBuffer destructors called
@@ -148,6 +208,6 @@ int main() {
         }
     }
     
-    std::cout << (success ? "Test PASSED" : "Test FAILED") << std::endl;
+    std::cout << (success ? "✅ Test PASSED - All " + std::to_string(N) + " elements computed correctly!" : "Test FAILED") << std::endl;
     return success ? 0 : 1;
 }
