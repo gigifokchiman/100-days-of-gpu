@@ -80,9 +80,6 @@ int main(void)
     }
     
 
-    // ========== TIMING: Start GPU measurement ==========
-    cudaEventRecord(start_event);
-    
     // CUDA-SPECIFIC: Copy data from host (CPU) to device (GPU)
     err = cudaMemcpy(d_A, h_A, size, cudaMemcpyHostToDevice);
     if (err != cudaSuccess)
@@ -106,6 +103,9 @@ int main(void)
     int blocksPerGrid = (numElements + threadsPerBlock - 1) / threadsPerBlock;
     printf("CUDA kernel launch with %d blocks of %d threads\n", blocksPerGrid, threadsPerBlock);
     
+    // ========== TIMING: Start GPU measurement (kernel + memory copy back) ==========
+    cudaEventRecord(start_event);
+    
     // CUDA-SPECIFIC: <<<blocks, threads>>> kernel launch syntax
     vectorAdd<<<blocksPerGrid, threadsPerBlock>>>(d_A, d_B, d_C, numElements);
     
@@ -117,6 +117,14 @@ int main(void)
     if (err != cudaSuccess)
     {
         fprintf(stderr, "Failed to launch vectorAdd kernel (error code %s)!\n", cudaGetErrorString(err));
+        exit(EXIT_FAILURE);
+    }
+    
+    // CUDA-SPECIFIC: Wait for kernel to complete
+    err = cudaDeviceSynchronize();
+    if (err != cudaSuccess)
+    {
+        fprintf(stderr, "Failed to synchronize device (error code %s)!\n", cudaGetErrorString(err));
         exit(EXIT_FAILURE);
     }
     
